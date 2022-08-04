@@ -9,4 +9,4 @@ Copy . app.py /app/
 # Install packages from requirements.txt
 #hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\
-    pip install --no-cache-dir -r requirements.txt
+        pip install --no-cache-dir -r requirements.txt
